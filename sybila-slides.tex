@@ -1,0 +1,102 @@
+\documentclass[10pt]{beamer}
+%\usepackage[latin2]{inputenc}
+\usepackage{graphicx}
+\usetheme{Copenhagen}
+\useoutertheme{shadow}
+\setbeamertemplate{headline}
+{%
+\begin{beamercolorbox}[ht=0.6ex]{section in head/foot}
+\vskip2pt\Tiny\insertnavigation{\paperwidth}\vskip3pt{\color{shaded}{\rule[0pt]{\textwidth}{1pt}}}
+\end{beamercolorbox}%
+}
+
+\usepackage{xspace}
+\usepackage[overlay,absolute]{textpos}
+\usepackage{listings} 
+%\usepackage{program}
+
+\usepackage{times,epsfig}
+\usefonttheme{structurebold}
+
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+
+%\usepackage{soul}
+
+\setbeamercovered{dynamic}
+\setbeamercolor{math text}{fg=green!45!black}
+
+
+ \setbeamercolor{title}{bg=white!30!black}
+ \setbeamercolor{frametitle}{bg=white!45!black}
+ \setbeamercolor{footline}{bg=black,fg=white}
+ \setbeamercolor{author in head/foot}{bg=black,fg=white}
+ \setbeamercolor{title in head/foot}{bg=white!45!black}
+ \setbeamercolor{block title}{bg=white!45!black}
+ \setbeamercolor{block title example}{bg=white!45!black}
+% \setbeamercolor{block title alerted}{bg=white!45!red}
+ \setbeamercolor{block title alerted}{bg=white!15!black}
+
+
+\beamertemplatenavigationsymbolsempty
+\beamertemplateheadempty
+
+\beamertemplateshadowblocks
+
+\usepackage{mathptm}
+
+
+\colorlet{redshaded}{red!25!bg}
+\colorlet{shaded}{black!25!bg}
+\colorlet{shadedshaded}{black!10!bg}
+\colorlet{blackshaded}{black!40!bg}
+
+\colorlet{darkred}{red!80!black}
+\colorlet{darkblue}{blue!80!black}
+\colorlet{darkgreen}{green!80!black}
+
+\newcommand{\redbullet}{${\color{red}\bullet}$}
+\newcommand{\greenbullet}{$\green\bullet$}
+
+\newcommand{\green}[1]{\color{green!80!black!100} #1\color{black}}
+\newcommand{\dgreen}[1]{\color{green!50!black!100} #1\color{black}}
+\newcommand{\red}[1]{\color{red!80!black!100} #1\color{black}}
+\newcommand{\blue}[1]{\color{blue!80!black!100} #1\color{black}}
+\newcommand{\structuregreen}[1]{\color{green!50!black!100} {\bf#1\ }\color{black}}
+\newcommand{\stru}{\structuregreen}
+\logo{\hspace*{0.6\textwidth}\includegraphics[width=1.2cm]{sybila-logo-paper-shaded}\hspace*{0.3cm}}
+
+
+\title[Computational Systems
+Biology\hspace*{30ex}\insertframenumber]{Computational Systems Biology}
+\author{Lubo\v{s} Brim  }
+\institute[Masaryk University Brno]{%
+  \vskip8ex\includegraphics[width=3.0cm]{sybila-logo-slide-title-shaded.pdf}\\[3ex]
+%  \includegraphics[width=4.0cm]{sybila-logo-slide-title-shaded.png}\\[3ex]
+%  \includegraphics[width=4.0cm]{sybila-logo-slide-title-page}\\[3ex]
+Faculty of Informatics\\ 
+  Masaryk University Brno\\[9ex]
+}
+\date{\small July 16, 2009}
+
+%\AtBeginSection[]{\frame{\frametitle{Outline}\tableofcontents[current]}}
+\begin{document}
+
+\frame[plain]{  
+\titlepage
+}
+
+
+\frame{ 
+\frametitle{Introduction} 
+
+}
+
+\end{document}
+
+% Local Variables:
+% TeX-parse-self: t
+% TeX-auto-save: t
+% TeX-command-default: "PDFbeamer"
+% End:
+
