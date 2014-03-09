@@ -58,6 +58,18 @@
 	\vfill
 }
 
+\setbeamertemplate{section page}
+{
+    \begin{frame}{Inhalt}
+        \tableofcontents[currentsection,hideothersubsections]
+    \end{frame}
+  
+}
+\def\subsectionpage{\usebeamertemplate*{subsection page}}
+
+\AtBeginSection{\sectionpage}
+
+
 %-------------------------------------------------------------------------------
 % Logo
 %-------------------------------------------------------------------------------
@@ -79,6 +91,13 @@
 \setbeamercolor{block title}{bg=white!45!black}
 \setbeamercolor{block title example}{bg=white!45!black}
 \setbeamercolor{block title alerted}{bg=white!15!black}
+
+\setbeamercolor{section number projected}{bg=black,fg=white}
+\setbeamercolor{section in toc shaded}{fg=black}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc shaded}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+\setbeamercolor*{item}{fg=white!45!black}
 
 \colorlet{redshaded}{red!25!bg}
 \colorlet{shaded}{black!25!bg}
