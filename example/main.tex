@@ -1,0 +1,43 @@
+% Main document. Here, we import all the necessary packages and create the basic structure of the document. All the text is distributed over other documents to prevent unreadable code.
+
+\documentclass[xcolor=svgnames]{beamer} %add `handout' to options to ignore <+-> and pauses
+
+    \usepackage[utf8]{inputenc}
+    \usepackage[english]{babel} 
+    
+    \usepackage{listings}
+    \usepackage{tabularx}
+    \usepackage{graphicx}
+    \usepackage{wrapfig}
+    \usepackage{units}
+    \usepackage{comment}
+    
+    % Nice unnumbered footnotes with \blfootnote
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+    
+    \usepackage{fixltx2e}
+	
+	\usetheme{Sybila}
+	\title{Sybila Theme Example Document}
+	\author{Oliver Conzen (miladiir)}
+	\institute{Github Example}
+	\date{\today}
+ 
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\section{Example Section}
+\input{example.tex}
+
+\section{Conclusion}
+\input{conclusion.tex}
+	
+\end{document}
+
+% I hope you like it!

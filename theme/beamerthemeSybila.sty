@@ -52,16 +52,28 @@
 
 		\begin{beamercolorbox}[sep=8pt,center,#1]{date}
 			\usebeamerfont{date}\insertdate
-		\end{beamercolorbox}
+    	\end{beamercolorbox}
+		
 	\end{centering}
 	\vfill
 }
+
+\setbeamertemplate{section page}
+{
+    \begin{frame}
+        \tableofcontents[currentsection,hideothersubsections]
+    \end{frame}
+  
+}
+
+\AtBeginSection{\sectionpage}
+
 
 %-------------------------------------------------------------------------------
 % Logo
 %-------------------------------------------------------------------------------
 
-\logo{\hspace*{0.6\textwidth}\includegraphics[width=1.2cm]{sybila-logo-paper-shaded}\hspace*{0.3cm}}
+%\logo{\hspace*{0.6\textwidth}\includegraphics[width=1.2cm]{sybila-logo-paper-shaded}\hspace*{0.3cm}}
 
 %-------------------------------------------------------------------------------
 % Colors
@@ -69,7 +81,7 @@
 
 \setbeamercovered{dynamic}
 
-\setbeamercolor{math text}{fg=green!45!black}
+\setbeamercolor{math text}{bg=white!45!black}
 \setbeamercolor{title}{bg=white!30!black}
 \setbeamercolor{frametitle}{bg=white!45!black}
 \setbeamercolor{footline}{bg=black,fg=white}
@@ -78,6 +90,13 @@
 \setbeamercolor{block title}{bg=white!45!black}
 \setbeamercolor{block title example}{bg=white!45!black}
 \setbeamercolor{block title alerted}{bg=white!15!black}
+
+\setbeamercolor{section number projected}{bg=black,fg=white}
+\setbeamercolor{section in toc shaded}{fg=black}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc shaded}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+\setbeamercolor*{item}{fg=white!45!black}
 
 \colorlet{redshaded}{red!25!bg}
 \colorlet{shaded}{black!25!bg}
@@ -98,7 +117,7 @@
 % Other
 %-------------------------------------------------------------------------------
 
-\titlegraphic{\includegraphics[width=3.0cm]{sybila-logo-slide-title-shaded.pdf}}
+%\titlegraphic{\includegraphics[width=3.0cm]{sybila-logo-slide-title-shaded.pdf}}
 
 \mode
 <all>
