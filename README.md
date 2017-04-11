@@ -29,7 +29,7 @@ Before building your presentation, make sure you have **installed both Fira Sans
  
 To build the presentation, always use **`xelatex`** — this way, the installed fonts can be properly resolved.
 
-The repository also contains a simple [example presentation](https://github.com/sybila/beamer-theme/blob/v2.0/presentation.pdf) that you can use to check whether everything looks as expected. 
+The repository also contains a simple [example presentation](https://github.com/sybila/beamer-theme/blob/v2.1/presentation.pdf) that you can use to check whether everything looks as expected. 
 
 ### Installing fonts
 
