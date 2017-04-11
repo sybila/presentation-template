@@ -37,4 +37,4 @@ The repository also contains a simple [example presentation](https://github.com/
 
 **MacOS** font installation [tutorial](https://support.apple.com/en-us/HT201722). Alternatively, you can select all .ttf files in Finder, open them (cmd+down) and then click the *Install Font* button.
 
-On **Linux**, the system font location seems to depend on your distibution, so you are on your own (however, the approach *open and look for install button* usually also seems to work).
+On most **Linux** distributions, you should be able to install these fonts using [TypeCatcher](https://launchpad.net/typecatcher).
