@@ -4,7 +4,10 @@ presentation.zip :
 presentation-full.zip :
 	zip -r presentation-full.zip fira-sans fira-mono sybila-logo .gitignore presentation.tex README.mk
 
-clean :
-	rm presentation.zip presentation-full.zip
+fonts.zip :
+	zip -r fonts.zip fira-sans fira-mono
 
-all : presentation.zip presentation-full.zip
+clean :
+	rm presentation.zip presentation-full.zip fonts.zip
+
+all : presentation.zip presentation-full.zip fonts.zip
