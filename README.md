@@ -10,9 +10,9 @@ It also uses two non-standard fonts, [Fira Sans](https://fonts.google.com/specim
 
 ### Downloading
 
-In the [release section](), you can download the template as either [standard]() or [full]() zip archive.
+In the [release section](https://github.com/sybila/presentation-template/releases/tag/v2.1), you can download the template as either [standard](https://github.com/sybila/presentation-template/releases/download/v2.1/presentation.zip) or [full](https://github.com/sybila/presentation-template/releases/download/v2.1/presentation-full.zip) zip archive.
 
-**Unless you install Fira Sans and Fira Mono separately (available on Google Fonts or from [this archive]()), you need to download the full version and install them. You can then use the standard version for any future projects.**
+**Unless you install Fira Sans and Fira Mono separately (available on Google Fonts or from [this archive](https://github.com/sybila/presentation-template/releases/download/v2.1/fonts.zip)), you need to download the full version and install them. You can then use the standard version for any future projects.**
 
 The standard version contains:
  - `presentation.tex` file which you can immediately start writing your presentation into (It also contains some useful examples).
