@@ -2,6 +2,8 @@
 
 This is a Beamer (LaTeX) presentation template that should be used for all Sybila-related presentations.
 
+**Looking for the old theme?** It is still avialable [here](https://github.com/sybila/beamer-theme/tree/v1.0), however, it is deprecated in favour of this new look.
+
 The template is based on the [metropolis](https://github.com/matze/mtheme) theme and as such is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 It also uses two non-standard fonts, [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) and [Fira Mono](https://fonts.google.com/specimen/Fira+Mono), both of which are available under the [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
