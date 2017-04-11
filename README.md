@@ -1,3 +1,38 @@
-### Sybila Presentation Theme
+### Sybila Presentation Template
 
-This is a Beamer (LaTeX) presentation theme that should be used for all Sybila-related presentations.
+This is a Beamer (LaTeX) presentation template that should be used for all Sybila-related presentations.
+
+The template is based on the [metropolis](https://github.com/matze/mtheme) theme and as such is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+It also uses two non-standard fonts, [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) and [Fira Mono](https://fonts.google.com/specimen/Fira+Mono), both of which are available under the [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
+### Downloading
+
+In the [release section](), you can download the template as either [standard]() or [full]() zip archive.
+
+**Unless you install Fira Sans and Fira Mono separately (available on Google Fonts or from [this archive]()), you need to download the full version and install them. You can then use the standard version for any future projects.**
+
+The standard version contains:
+ - `presentation.tex` file which you can immediately start writing your presentation into (It also contains some useful examples).
+ - `sybila-logo` folder containing raster versions of available Sybila logos (you can choose the logo in the `presentation.tex` preamble) 
+ - `.gitignore` file configured for standard LaTeX projects.
+ 
+Apart from files included in the standard version, the full version also contains:
+ - Full Fira Sans and Fira Mono fonts.
+ - Vector (.pdf) versions of latest Sybila logos.
+ 
+### Using
+ 
+Before building your presentation, make sure you have **installed both Fira Sans and Fira Mono fonts**. The build shouldn't fail when the fonts are missing, however, your presentation might look different than expected.
+ 
+To build the presentation, always use **`xelatex`** — this way, the installed fonts can be properly resolved.
+
+The repository also contains a simple [example presentation](https://github.com/sybila/beamer-theme/blob/v2.0/presentation.pdf) that you can use to check whether everything looks as expected. 
+
+### Installing fonts
+
+**Windows** font installation [tutorial](https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows).
+
+**MacOS** font installation [tutorial](https://support.apple.com/en-us/HT201722). Alternatively, you can select all .ttf files in Finder, open them (cmd+down) and then click the *Install Font* button.
+
+On **Linux**, the system font location seems to depend on your distibution, so you are on your own (however, the approach *open and look for install button* usually also seems to work).
