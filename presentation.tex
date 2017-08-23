@@ -39,7 +39,7 @@
 %\titlegraphic{\hfill\includegraphics[height=0.6cm]{sybila-logo/old-flat.png}}
 
 \date{}
-\author{David \v{S}afr\'{a}nek, Luboš Brim, Martin Demko, Samuel Pastva}
+\author[David \v{S}afr\'{a}nek]{David \v{S}afr\'{a}nek, Luboš Brim, Martin Demko, Samuel Pastva}
 \institute{Systems Biology Laboratory @ Masaryk University}
 
 %\title{Metropolis}
@@ -49,6 +49,24 @@
 %\author{Matthias Vogelgesang}
 %\institute{Center for modern beamer themes}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode
+  \hbox{
+  \begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}
+
+  \begin{beamercolorbox}[wd=.7\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}
+    \usebeamerfont{author in head/foot}\insertshorttitle
+  \end{beamercolorbox}
+
+  \begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}
+    \insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}
+  }
+}
 
 \begin{document}
 
