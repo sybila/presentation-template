@@ -10,9 +10,9 @@ It also uses two non-standard fonts, [Fira Sans](https://fonts.google.com/specim
 
 ### Downloading
 
-In the [release section](https://github.com/sybila/presentation-template/releases/tag/v2.2), you can download the template as either [standard](https://github.com/sybila/presentation-template/releases/download/v2.2/presentation.zip) or [full](https://github.com/sybila/presentation-template/releases/download/v2.2/presentation-full.zip) zip archive.
+In the [release section](https://github.com/sybila/presentation-template/releases/tag/v2.3), you can download the template as either [standard](https://github.com/sybila/presentation-template/releases/download/v2.3/presentation.zip) or [full](https://github.com/sybila/presentation-template/releases/download/v2.3/presentation-full.zip) zip archive.
 
-**Unless you install Fira Sans and Fira Mono separately (available on Google Fonts or from [this archive](https://github.com/sybila/presentation-template/releases/download/v2.2/fonts.zip)), you need to download the full version and install them. You can then use the standard version for any future projects.**
+**Unless you install Fira Sans and Fira Mono separately (available on Google Fonts or from [this archive](https://github.com/sybila/presentation-template/releases/download/v2.3/fonts.zip)), you need to download the full version and install them. You can then use the standard version for any future projects.**
 
 The standard version contains:
  - `presentation.tex` file which you can immediately start writing your presentation into (It also contains some useful examples).
@@ -29,7 +29,7 @@ Before building your presentation, make sure you have **installed both Fira Sans
  
 To build the presentation, always use **`xelatex`** — this way, the installed fonts can be properly resolved.
 
-The repository also contains a simple [example presentation](https://github.com/sybila/beamer-theme/blob/v2.2/presentation.pdf) that you can use to check whether everything looks as expected. 
+The repository also contains a simple [example presentation](https://github.com/sybila/beamer-theme/blob/v2.3/presentation.pdf) that you can use to check whether everything looks as expected. 
 
 ### Installing fonts
 
